@@ -1,0 +1,46 @@
+.DS_Store
+node_modules
+**/dist/
+/public
+/storybook-static
+
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Workspaces
+packages/*/coverage
+packages/*/dist
+packages/*/node_modules
+**/.nuxt/
+lerna-debug.log
+.npmrc
+examples/nuxt-js/node_modules
+
+bin/test.sh
+.note
+stories-query.json
+
+bin/test.sh
+.note
+stories-query.json
+
+# jest
+/coverage
